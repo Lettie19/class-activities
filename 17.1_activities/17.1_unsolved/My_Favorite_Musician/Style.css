@@ -1,5 +1,40 @@
-h1 { color:goldenrod;
-font-size: large;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-align: center;}
-img src {align-content: center;}
+h1 { 
+color:goldenrod;
+font-size: 65px;
+font-family: ;
+text-align: center;
+text-shadow: rgb(110, 80, 2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 10px;
+}
+
+li:before {
+    content: "\25BA\0020";
+    position: absolute;
+    font-size: 8px;
+    color: goldenrod;
+    top: 4px;
+    left: -8px;
+}
+
+h3, h4{
+font-size: 18px;
+font-family: sans-serif;
+text-decoration: underline;
+font-weight: 600;
+}
+
+body {
+    background-color: rgb(247, 242, 236);
+}
