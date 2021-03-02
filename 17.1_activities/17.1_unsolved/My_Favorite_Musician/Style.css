@@ -1,9 +1,9 @@
 h1 { 
-color:goldenrod;
-font-size: 65px;
-font-family: ;
-text-align: center;
-text-shadow: rgb(110, 80, 2);
+   color:goldenrod;
+   font-size: 65px;
+   font-family: ;
+   text-align: center;
+   text-shadow: rgb(110, 80, 2);
 }
 
 h2 {
@@ -26,6 +26,11 @@ li:before {
     color: goldenrod;
     top: 4px;
     left: -8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto
 }
 
 h3, h4{
