@@ -9,23 +9,32 @@ body {
   width: 50%;
   background-color: green;
 }
+
+/* When you don't add the relative postion to the parent (blue box) the red box is constrained within the blue one.It is positioned relatively to its parent item. This is good when designing menus*/
+
 .relative {
   background-color: lightblue;
   height: 250px;
-  padding: 30px;
+  padding: 80px;
   margin: 10px;
   display: flex;
+  position: relative;
 }
 .absolute {
   height: 150px;
   width: 150px;
   background-color: red;
   color: white;
-
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 .fixed {
   height: 200px;
   width: 200px;
   background-color: green;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 
 }
