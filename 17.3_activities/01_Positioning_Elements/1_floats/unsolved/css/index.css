@@ -1,8 +1,21 @@
 h1 {
  font-family: helvetica, arial, sans-serif;
 }
-/* Write your selector for .left below */
+/* Write your selector for .left below - this is how you comment in CSS*/
+.left{
+    float: left;
+    /*padding-right: 15px; this code is commented out and will not show in the browser view*/
+    /*padding: 50px;8 */
+    /* below the order for the padding pixel is Top Right Bottom Left*/
+    padding: 10px 50px 20px 5px;
+}
 
 /* Write your selector for .right below */
-
+.right {
+    float: right;
+    padding-left: 15px;
+}
 /* Write your selector for .separator below */
+.separator {
+    width: 750px;
+}
