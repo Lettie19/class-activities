@@ -1,0 +1,48 @@
+.grid-container { 
+    display:grid;
+  background-color: lightblue;
+  grid-template-areas:
+  'one two'
+  'one four'
+   'one three';
+    grid-template-rows: .5fr 2fr .5fr;
+    grid-template-columns: 10% 90%;
+  }
+  
+  
+  
+  .grid-container div {
+    background-color: pink;
+    padding:20px;
+    margin:10px;
+  }
+  
+  .item1 {
+    grid-area:one
+  }
+  
+  .item2 {
+    grid-area:two
+  }
+  
+  .item3 {
+    grid-area:three
+  }
+  
+  .item4 {
+    grid-area:four
+  }
+  
+  .item1.item2.item3.item4 {
+    backbroung-color:lightpink;
+  padding:20ox;
+  margin:10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
