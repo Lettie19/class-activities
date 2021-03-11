@@ -1,6 +1,6 @@
 .grid-container { 
     display:grid;
-  background-color: lightblue;
+  background-color: rgb(206, 233, 241);
   grid-template-areas:
   'one two'
   'one four'
@@ -12,7 +12,7 @@
   
   
   .grid-container div {
-    background-color: pink;
+    background-color: rgb(231, 198, 203);
     padding:20px;
     margin:10px;
   }
@@ -34,7 +34,7 @@
   }
   
   .item1.item2.item3.item4 {
-    backbroung-color:lightpink;
+    backbround-color:rgb(243, 219, 222);
   padding:20ox;
   margin:10px;
   }
