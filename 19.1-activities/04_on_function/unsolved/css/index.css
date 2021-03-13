@@ -18,6 +18,10 @@ div {
   height: 150px;
   width: 150px;
 }
+
+.green {
+  background-color: green;
+}
 .appendMe {
   outline: 1px solid red;
 }
