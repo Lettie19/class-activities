@@ -19,6 +19,10 @@ $(".searchButton").click(function(){
      $("#searchForm").css("opacity","0");
      $(".searchIcon").removeClass("fa-times").addClass("fa-search");
  }
+});
 
+function fade() {
+    $(".preloader").fadeOut("fast");
+}
 
-})
+setTimeout (fade,1000);
