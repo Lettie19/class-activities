@@ -14,7 +14,7 @@ h2 {
 
 .portfolio {
   background-color: green;
-  border-style:solid black;
+  border:thin solid black;
   padding: 20px;
 }
 .signUp {margin: 0 auto;
