@@ -1,13 +1,46 @@
 #hero {
-    /*background-image: url("../images/hero.png");
-    background-repeat: no-repeat;*/
-   
-}
-
-#hero .jumbotron {
     background-image: url("../images/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
+   
+}
+
+#hero .jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none !important;
 }  
 
+#adventure h2 {
+    color: black;
+    font-size: 58px;
+    text-align: center;
+}
+
+#adventure h2 span {
+    color: #ff9900;
+    display: block;
+    font-size: 37px;
+}
+
+.adventure-item {
+    background-image: url("../images/adventure-background-image.png");
+    height:500x;
+    padding: 100px 20px;
+    background-color: black;
+    backgroun
+    flex-direction: column;
+    color: white;
+}
+
+.adventure-item img {
+    width: 45px;
+}
+
+.adventure-item .btn-primary {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+    
