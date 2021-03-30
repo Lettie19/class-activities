@@ -43,4 +43,12 @@
     background-color: #ff9900;
     border-color: #ff9900;
 }
+
+.jumbotron {
+    display: flex;
+    background-color: transparent !important;
+    justify-content: center;
+    align-items: center;
+   
+}
     
